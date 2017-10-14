@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aqua;
+            width: 100%;
+        }
+        .container{
+            font-size: 20px;
+            padding-left: 10px;
+        }
+        .head{
+            text-align: center;
+            height: 60px;
+        }
+        .child{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+<header class="head">
+    <div>
+        <h1> CodingBlocks Admission Form </h1>
+    </div>
+</header>
+<hr>
+
+<form method="get" action = "FormSubmission.html" target = _blank>
+    <br>
+    <br>
+<section class="container">
+    <div class ="child">
+        Name&nbsp;&nbsp;&nbsp;<input type="text" required>
+    </div>
+    <div class="child">
+        Courses interested in
+        <br>
+        CRUX<input name ="course" type ="radio">
+        ELIXIR<input name="course" type="radio">
+        PANDORA <input name ="course" type="radio">
+        ALGO++ <input name ="course" type ="radio">
+    </div>
+    <div class="child">
+        College&nbsp;&nbsp;&nbsp;<input type="text" required>
+    </div>
+    <div class ="child">
+        Year&nbsp;&nbsp;&nbsp;<input type="number">
+    </div>
+    <div class = "child">
+        Mobile No&nbsp;&nbsp;&nbsp;<input type="text" required>
+    </div>
+    <div class = "child">
+        Email-Id:&nbsp;&nbsp;&nbsp;<input type="text" required>
+    </div>
+    <div class ="child">
+        <input type="submit">
+    </div>
+</section>
+</form>
+</body>
+</html>
